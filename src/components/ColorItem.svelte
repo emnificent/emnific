@@ -28,7 +28,9 @@
 
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-<article class="{ color.name }" tabindex="0" on:click={colorCopy} on:keydown={colorCopyKeyboard}>
+<!-- svelte-ignore a11y-no-noninteractive-element-to-interactive-role -->
+<!-- DON'T SWITCH TO A BUTTON, only phrasing content is allowed in a button, here: p -->
+<article class="{ color.name }" role="button" tabindex="0" on:click={colorCopy} on:keydown={colorCopyKeyboard}>
   <div class="blurry-background { color.name }"></div>
   <h3>{ color.name }</h3>
   <div>
