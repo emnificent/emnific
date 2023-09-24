@@ -1,6 +1,6 @@
 <article>
   <h2><a href="https://dan.com/domain-seller/emilie" target="_blank">Expiring Domains</a></h2>
-  <p>When I rename or give up on a project, I wish I could release the domain immediately, selling it is the closest I can get to that; <a href="https://dan.com/domain-seller/emilie" target="_blank">secure your domain!</a></p>
+  <p>When I rename or give up on a project, I wish I could release the domain immediately, selling it is the closest I can get to that; <a href="https://dan.com/domain-seller/emilie" target="_blank">check out my store</a>.</p>
 </article>
 
 <style>

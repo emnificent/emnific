@@ -4,7 +4,7 @@
   const identity = {
     title: 'identity',
     items: [
-      { emoji: '⚧️', text: 'trans woman' },
+      { emoji: '⚧️', text: 'trans woman (she/her)' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
       // , <a href="/date">date me?</a>
       { emoji: '🧠', text: 'ADHD' },
@@ -15,7 +15,7 @@
   const activity = {
     title: 'activity',
     items: [
-      { emoji: '💻', text: 'web dev' },
+      { emoji: '💻', text: 'web app developer' },
       { emoji: '🎧', text: 'music producer' },
       { emoji: '🐈‍⬛', text: 'cats caretaker' }
     ]
@@ -24,8 +24,8 @@
   const politics = {
     title: 'politics',
     items: [
-      { emoji: '✊🏼', text: 'anarchist' },
-      { emoji: '💢', text: 'antifa' }
+      { emoji: '✊🏼', text: 'social anarchist' },
+      { emoji: '💢', text: 'anti-fascist' }
     ]
   };
 
