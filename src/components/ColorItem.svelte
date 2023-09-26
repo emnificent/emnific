@@ -19,7 +19,6 @@
     if (data.includes('HSL')) data = data.replace(' ', '(').toLowerCase() + ')';
     
     navigator.clipboard.writeText(data);
-    target.blur();
 
     reveal = true;
     setTimeout(() => { reveal = false; }, 1000);
@@ -29,7 +28,7 @@
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <!-- svelte-ignore a11y-no-noninteractive-element-to-interactive-role -->
-<!-- DON'T SWITCH TO A BUTTON, only phrasing content is allowed in a button, here: p -->
+<!-- DON'T SWITCH TO A BUTTON, only phrasing content is allowed in a button, here: <p> -->
 <article class="{ color.name }" role="button" tabindex="0" on:click={colorCopy} on:keydown={colorCopyKeyboard}>
   <div class="blurry-background { color.name }"></div>
   <h3>{ color.name }</h3>
@@ -58,7 +57,7 @@
     }
 
     &:hover,
-    &:focus {
+    &:focus-visible {
       outline: transparent;
       background-color: var(--c-dark);
 

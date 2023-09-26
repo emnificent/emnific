@@ -54,10 +54,10 @@ a {
   &:focus {
     color: var(--c-primary--lighter);
     text-decoration-color: transparent;
-  }
+	}
 
-	&:focus {
-    outline-offset: 0.25rem;
+	&:focus-visible {
+		outline-offset: 0.25rem;
     outline: var(--c-primary) 2px solid;
     border-radius: 0.25rem;
 	}
@@ -86,13 +86,9 @@ abbr[data-title] {
 		}
 	}
 
-  &:focus {
-    outline-offset: 0.25rem;
+	&:focus-visible {
+		outline-offset: 0.25rem;
     border-radius: 0.25rem;
-    outline: transparent;
-
-    @media screen and (width >= 992px){
-      outline: var(--c-primary) 2px solid;
-    }
-  }
+    outline: var(--c-primary) 2px solid;
+	}
 }
