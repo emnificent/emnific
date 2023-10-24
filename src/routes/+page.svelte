@@ -4,18 +4,17 @@
   import Hero from '$lib/components/Hero.svelte';
   import Discord from '$lib/components/Discord.svelte';
   import Domains from '$lib/components/Domains.svelte';
+	import Today from '../lib/components/Today.svelte';
 </script>
 
 <main>
   <Hero />
-
   <About />
-
+  <Today />
   <Colors />
-
+  
   <div class="desktop-two-one-layout">
     <Discord />
-  
     <Domains />
   </div>
 </main>
