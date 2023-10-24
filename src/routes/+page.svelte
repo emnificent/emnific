@@ -1,9 +1,9 @@
 <script>
-  import About from '../layouts/About.svelte';
-  import Colors from '../layouts/Colors.svelte';
-  import Hero from '../components/Hero.svelte';
-  import Discord from '../components/Discord.svelte';
-  import Domains from '../components/Domains.svelte';
+  import About from '$lib/layouts/About.svelte';
+  import Colors from '$lib/layouts/Colors.svelte';
+  import Hero from '$lib/components/Hero.svelte';
+  import Discord from '$lib/components/Discord.svelte';
+  import Domains from '$lib/components/Domains.svelte';
 </script>
 
 <main>
