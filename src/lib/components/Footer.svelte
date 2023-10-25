@@ -16,6 +16,11 @@
 
   a {
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: var(--c-light);
+    }
   }
 
   footer {
