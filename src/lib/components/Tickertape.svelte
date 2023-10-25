@@ -33,11 +33,15 @@
   { /each }
 </section>
 
-<style>
+<style lang="scss">
   .container {
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
+
+    @media (prefers-reduced-motion: reduce) {
+      overflow: auto;
+    }
   }
 
   .tickertape {
