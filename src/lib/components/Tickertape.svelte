@@ -23,7 +23,7 @@
   shuffle(causes);
 </script>
 
-<section>
+<section class="container">
   { #each Array(2) as _ }
     <div class="tickertape">
       { #each causes as cause }
@@ -34,7 +34,7 @@
 </section>
 
 <style>
-  section {
+  .container {
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
@@ -49,10 +49,10 @@
 
   @keyframes tickslide {
     from {
-      transform: translateX(0);
+      translate: 0%;
     }
     to {
-      transform: translateX(-100%);
+      translate: -100%;
     }
   }
 
