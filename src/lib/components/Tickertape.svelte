@@ -1,0 +1,63 @@
+<script>
+  const causes = [
+    '💲 eat the rich 💲',
+    '🚓 learn your ACAB 🚓',
+    '🇵🇸 free Palestine 🇵🇸',
+    '✊🏿 black lives matter ✊🏿',
+    '💪 feminism is for everybody 💪',
+    '🏳️‍⚧️ trans rights are human rights 🏳️‍⚧️',
+    '🏩 sex work is real work 🏩',
+    '⚕️ abortion is healthcare ⚕️',
+    '🌳 save the planet 🌳',
+    '🤝 the future is intersectional 🤝',
+  ]
+
+  // Fisher-Yates x Durstenfeld
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  shuffle(causes);
+</script>
+
+<section>
+  { #each Array(2) as _ }
+    <div class="tickertape">
+      { #each causes as cause }
+        <h2>{ cause }</h2>
+      { /each }
+    </div>
+  { /each }
+</section>
+
+<style>
+  section {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .tickertape {
+    display: flex;
+    flex-flow: row nowrap;
+
+    animation: 30s linear infinite tickslide;
+  }
+
+  @keyframes tickslide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  h2 {
+    white-space: nowrap;
+    margin-left: 2.5rem;
+  }
+</style>

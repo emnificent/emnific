@@ -5,11 +5,13 @@
   import Discord from '$lib/components/Discord.svelte';
   import Domains from '$lib/components/Domains.svelte';
 	import Today from '../lib/components/Today.svelte';
+	import Tickertape from '../lib/components/Tickertape.svelte';
 </script>
 
 <main>
   <Hero />
   <About />
+  <Tickertape />
   <Today />
   <Colors />
   
