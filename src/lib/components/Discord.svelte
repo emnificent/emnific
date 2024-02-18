@@ -5,7 +5,7 @@
       <a href="https://discord.gg/MnM3WNUn8K" target="_blank">
         <article>
           <div class="blurry-background"></div>
-          <h3>Rainbow Labs</h3>
+          <h3>The Circle</h3>
           <p>a safe space to experiment, brainstorm, get feedback, talk, share things you enjoy</p>
         </article>
       </a>
