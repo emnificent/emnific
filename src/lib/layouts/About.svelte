@@ -6,9 +6,9 @@
     items: [
       { emoji: '⚧️', text: 'trans woman' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
-      // , <a href="/date">date me?</a>
-      { emoji: '🧠', text: 'ADHD' },
-      { emoji: '🥖', text: 'French' }
+      { emoji: '🍑', text: 'dom' },
+      { emoji: '🧠', text: 'adhd' },
+      // { emoji: '🥖', text: 'french' }
     ]
   };
 
