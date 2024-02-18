@@ -21,9 +21,9 @@
         <h2>{today.body.fullDate}</h2>
         <p>{today.body.shortDate}</p>
 
-        { #if today.body.holiday }
+        <!-- { #if today.body.holiday }
           <p>🎉 {today.body.holiday}</p>
-        { /if }
+        { /if } -->
       { :else }
         <p>there was an error</p>
       { /if }
