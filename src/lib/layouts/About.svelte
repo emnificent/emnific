@@ -6,9 +6,8 @@
     items: [
       { emoji: '⚧️', text: 'trans woman' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
-      { emoji: '🍑', text: 'dom' },
-      { emoji: '🧠', text: 'adhd' },
-      // { emoji: '🥖', text: 'french' }
+      { emoji: '🍑', text: 'domme' },
+      { emoji: '🧠', text: 'adhd' }
     ]
   };
 
@@ -25,7 +24,8 @@
     title: 'politics',
     items: [
       { emoji: '✊🏼', text: 'social anarchist' },
-      { emoji: '💢', text: 'anti-fascist' }
+      { emoji: '💢', text: 'anti-fascist' },
+      { emoji: '🥖', text: 'french' }
     ]
   };
 
