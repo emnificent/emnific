@@ -26,12 +26,16 @@
   <h2>Expiring Domains</h2>
   <ul id="domains-list">
     { #each domainsList as domainName }
-      <li><a href="https://${domainName}" target="_blank">{domainName}</a></li>
+      <li><a href="https://{domainName}" target="_blank">{domainName}</a></li>
     { /each }
   </ul>
 </section>
 
-<style>
+<style lang="scss">
+  /* section {
+    grid-area: domains;
+  } */
+
   h2 {
     font-weight: var(--fw--bold);
     font-size: calc(var(--fs-title) * 1rem);
@@ -39,10 +43,21 @@
   }
 
   ul {
-    list-style-position: inside;
+    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.5rem;
+
+    @media screen and (width >= 768px) {
+      display: grid;
+      grid-template: auto / repeat(2, 1fr);
+      gap: 0.5rem 1.5rem;
+    }
+
+    @media screen and (width >= 992px) {
+      display: grid;
+      grid-template: auto / repeat(3, 1fr);
+    }
   }
 
   a {

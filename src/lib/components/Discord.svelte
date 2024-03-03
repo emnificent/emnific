@@ -48,6 +48,11 @@
       grid-template: auto / repeat(2, 1fr);
       gap: 1.5rem;
     }
+
+    @media screen and (width >= 992px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   li {
