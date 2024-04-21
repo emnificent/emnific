@@ -1,6 +1,8 @@
 <script>
   let domainsList = [
+    'anaranar.com',
     'antifamail.org',
+    'antifapost.com',
     'blackcats.party',
     'bum.su',
     'emilie.fun',
@@ -9,6 +11,7 @@
     'lust.sx',
     'lustess.com',
     'lustfulslut.com',
+    'struggleunion.com',
     'testtube.work'
   ]
 
