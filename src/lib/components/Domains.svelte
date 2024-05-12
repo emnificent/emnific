@@ -7,9 +7,7 @@
     'bum.su',
     'emilie.fun',
     'emilie.pm',
-    'e-pals.party',
     'lust.sx',
-    'lustess.com',
     'lustfulslut.com',
     'struggleunion.com',
     'testtube.work'
