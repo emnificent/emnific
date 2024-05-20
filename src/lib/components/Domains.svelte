@@ -25,7 +25,7 @@
 </script>
 
 <section>
-  <h2>Expiring Domains</h2>
+  <h2>Domains for sale</h2>
   <ul id="domains-list">
     { #each domainsList as domainName }
       <li><a href="https://{domainName}" target="_blank">{domainName}</a></li>
