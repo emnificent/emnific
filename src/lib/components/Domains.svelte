@@ -9,8 +9,7 @@
     'emilie.pm',
     'lust.sx',
     'lustfulslut.com',
-    'struggleunion.com',
-    'testtube.work'
+    'struggleunion.com'
   ]
 
   // Fisher-Yates x Durstenfeld
