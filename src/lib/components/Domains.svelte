@@ -7,6 +7,7 @@
     'bum.su',
     'emilie.fun',
     'emilie.pm',
+    'emiliecodes.com',
     'lust.sx',
     'lustfulslut.com',
     'struggleunion.com'
