@@ -4,12 +4,9 @@
     '🚓 learn your ACAB 🚓',
     '🇵🇸 free Palestine 🇵🇸',
     '✊🏿 black lives matter ✊🏿',
-    '💪 feminism is for everybody 💪',
     '🏳️‍⚧️ trans rights are human rights 🏳️‍⚧️',
-    '🏩 sex work is real work 🏩',
+    '🍑 sex work is real work 🍑',
     '⚕️ abortion is healthcare ⚕️',
-    '🌳 save the planet 🌳',
-    '🤝 the future is intersectional 🤝',
   ]
 
   // Fisher-Yates x Durstenfeld
