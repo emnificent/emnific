@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: var(--c-dark);
+    color: var(--c-background);
     height: 8rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -53,13 +53,13 @@
     transition: all 0.3s;
 
     &.dark {
-      color: var(--c-light);
+      color: var(--c-text);
     }
 
     &:hover,
     &:focus-visible {
       outline: transparent;
-      background-color: var(--c-dark);
+      background-color: var(--c-background);
 
       /* not sure why it wouldn't transition slowly otherwise */
       & p, h3 {
@@ -67,7 +67,7 @@
       }
 
       & p {
-        color: var(--c-light);
+        color: var(--c-text);
       }
 
       &.emgreen {
@@ -123,7 +123,7 @@
 
   h3 {
     font-weight: var(--fw--bold);
-    font-size: calc(var(--fs-title--small) * 1rem);
+    font-size: var(--fs-title--small);
     text-transform: capitalize;
   }
 
@@ -133,8 +133,8 @@
 
   .copied-marker {
     position: absolute;
-    background-color: var(--c-dark--deeper);
-    color: var(--c-light);
+    background-color: var(--c-background--bold);
+    color: var(--c-text);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     top: 50%;

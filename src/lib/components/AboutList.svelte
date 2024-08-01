@@ -16,7 +16,7 @@
 <style>
   h2 {
     font-weight: var(--fw--bold);
-    font-size: calc(var(--fs-title) * 1rem);
+    font-size: var(--fs-title);
     text-transform: capitalize;
     margin-bottom: 0.25rem;
   }

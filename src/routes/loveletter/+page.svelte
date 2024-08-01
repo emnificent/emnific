@@ -169,7 +169,7 @@
   }
 
   table {
-    background-color: var(--c-dark--deeper);
+    background-color: var(--c-background--bold);
     padding: 1rem;
   }
   
@@ -196,7 +196,7 @@
   .reset {
     & button {
       width: 100%;
-      background-color: var(--c-dark--deeper);
+      background-color: var(--c-background--bold);
       color: hsl(0, 100%, 41%);
       border: 2px solid hsl(0, 100%, 41%);
       font-weight: var(--fw--bold);
@@ -208,7 +208,7 @@
       &:hover,
       &:focus-visible {
         background-color: hsl(0, 100%, 41%);
-        color: var(--c-dark--deeper);
+        color: var(--c-background--bold);
       }
     }
   }
@@ -234,14 +234,14 @@
     }
 
     & input {
-      background-color: var(--c-dark--deeper);
+      background-color: var(--c-background--bold);
       border: transparent;
       padding: 0.5rem 1rem;
       border-radius: 1rem;
     }
 
     & button {
-      background-color: var(--c-dark);
+      background-color: var(--c-background);
       color: var(--c-primary);
       border: 2px solid var(--c-primary);
       padding: 0.5rem;
@@ -251,7 +251,7 @@
       &:hover,
       &:focus-visible {
         background-color: var(--c-primary);
-        color: var(--c-white);
+        color: var(--c-text);
       }
 
       &:disabled {

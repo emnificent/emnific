@@ -8,7 +8,7 @@
 
 <style lang="scss">
   p {
-    font-size: calc(var(--fs-text--small) * 1rem);
+    font-size: var(--fs-text--small);
     line-height: 1;
     text-align: center;
     opacity: 0.5;
@@ -19,7 +19,7 @@
 
     &:hover,
     &:focus {
-      color: var(--c-light);
+      color: var(--c-text);
     }
   }
 
