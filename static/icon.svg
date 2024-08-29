@@ -140,12 +140,12 @@
                      gradientTransform="rotate(180,0.5,0.5)">
                     <stop
                        offset="0"
-                       stop-color="#30E87D"
+                       stop-color="#45F27F"
                        stop-opacity="1"
                        id="stop3" />
                     <stop
                        offset="1"
-                       stop-color="#0D7359"
+                       stop-color="#008668"
                        stop-opacity="1"
                        id="stop4" />
                   </radialGradient>
@@ -191,12 +191,12 @@
                      gradientTransform="rotate(180,0.5,0.5)">
                     <stop
                        offset="0"
-                       stop-color="#30E87D"
+                       stop-color="#45F27F"
                        stop-opacity="1"
                        id="stop5" />
                     <stop
                        offset="1"
-                       stop-color="#0D7359"
+                       stop-color="#008668"
                        stop-opacity="1"
                        id="stop6" />
                   </radialGradient>
@@ -242,12 +242,12 @@
                      gradientTransform="rotate(180,0.5,0.5)">
                     <stop
                        offset="0"
-                       stop-color="#30E87D"
+                       stop-color="#45F27F"
                        stop-opacity="1"
                        id="stop7" />
                     <stop
                        offset="1"
-                       stop-color="#0D7359"
+                       stop-color="#008668"
                        stop-opacity="1"
                        id="stop8" />
                   </radialGradient>
@@ -293,12 +293,12 @@
                      gradientTransform="rotate(180,0.5,0.5)">
                     <stop
                        offset="0"
-                       stop-color="#30E87D"
+                       stop-color="#45F27F"
                        stop-opacity="1"
                        id="stop9" />
                     <stop
                        offset="1"
-                       stop-color="#0D7359"
+                       stop-color="#008668"
                        stop-opacity="1"
                        id="stop10" />
                   </radialGradient>
