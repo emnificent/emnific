@@ -2,9 +2,9 @@
   import ColorItem from '../components/ColorItem.svelte';
 
   const colors = [
-    { name: 'emgreen', hex: '#14B874', hsl: '155°, 80%, 40%' },
-    { name: 'dark emgreen', hex: '#0D7359', hsl: '165°, 80%, 25%' },
-    { name: 'light emgreen', hex: '#30E87D', hsl: '145°, 80%, 55%' }
+    { name: 'emgreen', hex: '#00BC7B', oklch: '70% 0.16 160' },
+    { name: 'dark emgreen', hex: '#008668', oklch: '55% 0.11 170' },
+    { name: 'light emgreen', hex: '#45F27F', oklch: '85% 0.21 150' }
   ]
 </script>
 

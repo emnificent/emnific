@@ -14,9 +14,9 @@
       target = target.parentNode;
     }
 
-    let data = !event.shiftKey ? target.querySelector('.hex') : target.querySelector('.hsl');
-    data = data.textContent.replace('°', '');
-    if (data.includes('HSL')) data = data.replace(' ', '(').toLowerCase() + ')';
+    let data = !event.shiftKey ? target.querySelector('.hex') : target.querySelector('.oklch');
+    data = data.textContent;
+    if (data.includes('OKLCH')) data = data.replace(' ', '(').toLowerCase() + ')';
     
     navigator.clipboard.writeText(data);
 
@@ -34,7 +34,7 @@
   <h3>{ color.name }</h3>
   <div>
     <p class="hex">{ color.hex }</p>
-    <p class="hsl">HSL { color.hsl }</p>
+    <p class="oklch">OKLCH { color.oklch }</p>
   </div>
   <div class="copied-marker" class:reveal={reveal}><p>copied!</p></div>
 </article>
