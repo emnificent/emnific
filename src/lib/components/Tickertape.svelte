@@ -1,10 +1,10 @@
 <script>
   const causes = [
     '💲 eat the rich 💲',
-    '🚓 learn your ACAB 🚓',
+    '🚓 learn your acab 🚓',
     '🇵🇸 free Palestine 🇵🇸',
     '✊🏿 black lives matter ✊🏿',
-    '🏳️‍⚧️ trans rights are human rights 🏳️‍⚧️',
+    '⚧️ trans rights are human rights ⚧️',
     '🍑 sex work is real work 🍑',
     '⚕️ abortion is healthcare ⚕️',
   ]
