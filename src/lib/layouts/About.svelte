@@ -7,8 +7,6 @@
       { emoji: '⚧️', text: 'trans woman' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
       { emoji: '🍑', text: 'pleasure domme' },
-      { emoji: '🔒', text: 'taken' },
-      // { emoji: '🔓', text: 'available, <a href="/date">date me?</a>' },
       { emoji: '🧠', text: 'adhd' },
       { emoji: '🥖', text: 'french' },
     ]
@@ -17,7 +15,7 @@
   const activity = {
     title: 'activity',
     items: [
-      { emoji: '💡', text: 'entrepreneur' },
+      { emoji: '🛠️', text: 'founder' },
       // -> founder.emnificent: symfairy, lustuptoys
       { emoji: '💻', text: 'web app developer' },
       // -> dev.emnificent: breadfight, lenorian, lustpad, discord bots
@@ -32,11 +30,12 @@
     title: 'politics',
     items: [
       { emoji: '✊🏼', text: 'social anarchist' },
-      { emoji: '💢', text: 'antifascist' },
-      { emoji: '💪🏼', text: 'feminist' },
-      { emoji: '🌳', text: 'ecologist' },
+      { emoji: '💢', text: 'anti-fascist' },
+      { emoji: '🍞', text: 'anti-capitalist' },
+      { emoji: '🕊️', text: 'decolonialist' },
+      // { emoji: '🔗', text: 'intersectionalist' },
+      { emoji: '🌱', text: 'ecologist' },
       // { emoji: '🗞️', text: '<a href="/blog">read my blog</a>' },
-      // { emoji: '🗨️', text: '<a href="/quotes">quotes I like</a>' },
     ]
   };
 
