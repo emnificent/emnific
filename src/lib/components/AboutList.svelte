@@ -24,4 +24,8 @@
   ul {
     list-style: none;
   }
+
+  :global(.small-text) {
+    font-size: var(--fs-text--small);
+  }
 </style>

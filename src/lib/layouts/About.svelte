@@ -6,7 +6,7 @@
     items: [
       { emoji: '⚧️', text: 'trans woman' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
-      { emoji: '🍑', text: 'pleasure domme' },
+      { emoji: '🍑', text: 'pleasure domme, sadist' },
       { emoji: '🧠', text: 'adhd' },
       { emoji: '🥖', text: 'french' },
     ]
@@ -30,11 +30,11 @@
     title: 'politics',
     items: [
       { emoji: '✊🏼', text: 'social anarchist' },
-      { emoji: '💢', text: 'anti-fascist' },
+      { emoji: '🔻', text: 'anti-fascist <span class="small-text">(<a href="https://territoires-memoire.be/le-triangle-rouge/" target="_blank">red triangle?</a>)</span>' },
       { emoji: '🍞', text: 'anti-capitalist' },
       { emoji: '🕊️', text: 'decolonialist' },
-      // { emoji: '🔗', text: 'intersectionalist' },
-      { emoji: '🌱', text: 'ecologist' },
+      { emoji: '🧩', text: 'intersectionalist' },
+      // { emoji: '🌱', text: 'ecologist' },
       // { emoji: '🗞️', text: '<a href="/blog">read my blog</a>' },
     ]
   };
