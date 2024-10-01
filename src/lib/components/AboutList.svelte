@@ -13,7 +13,7 @@
   </ul>
 </article>
 
-<style>
+<style lang="scss">
   h2 {
     font-weight: var(--fw--bold);
     font-size: var(--fs-title);
@@ -27,5 +27,11 @@
 
   :global(.small-text) {
     font-size: var(--fs-text--small);
+    opacity: 0.5;
+    
+    &:has(a:hover),
+    &:has(a:focus-visible) {
+      opacity: 1;
+    }
   }
 </style>
