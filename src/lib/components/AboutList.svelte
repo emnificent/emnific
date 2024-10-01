@@ -25,7 +25,7 @@
     list-style: none;
   }
 
-  :global(.small-text) {
+  :global(.about__comment) {
     font-size: var(--fs-text--small);
     opacity: 0.5;
     

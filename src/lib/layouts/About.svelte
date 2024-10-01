@@ -4,12 +4,12 @@
   const identity = {
     title: 'identity',
     items: [
-      { emoji: '⚧️', text: 'trans woman <span class="small-text">(she/her)</span>' },
-      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="small-text">(taken)</span>' },
-      // { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="small-text">(<a href="/date">date me?</a>)</span>' },
+      { emoji: '⚧️', text: 'trans woman <span class="about__comment">she/her</span>' },
+      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="about__comment">taken</span>' },
+      // { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="about__comment"><a href="/date">date me</a>?</span>' },
       { emoji: '🍑', text: 'pleasure domme, sadist' },
-      { emoji: '🧠', text: 'adhd <span class="small-text">(had to be nerfed)</span>' },
-      { emoji: '🥖', text: 'french <span class="small-text">(sorry, I guess?)</span>' },
+      { emoji: '🧠', text: 'adhd <span class="about__comment">had to be nerfed</span>' },
+      { emoji: '🥖', text: 'french <span class="about__comment">sorry, I guess?</span>' },
     ]
   };
 
@@ -31,7 +31,7 @@
     title: 'politics',
     items: [
       { emoji: '✊🏼', text: 'social anarchist' },
-      { emoji: '🔻', text: 'anti-fascist <span class="small-text">(<a href="https://territoires-memoire.be/le-triangle-rouge/" target="_blank">red triangle?</a>)</span>' },
+      { emoji: '🔻', text: 'anti-fascist <span class="about__comment"><a href="https://territoires-memoire.be/le-triangle-rouge/" target="_blank">red triangle</a>?</span>' },
       { emoji: '🍞', text: 'anti-capitalist' },
       { emoji: '🕊️', text: 'decolonialist' },
       { emoji: '🧩', text: 'intersectionalist' },
