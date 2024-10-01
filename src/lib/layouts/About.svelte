@@ -4,11 +4,12 @@
   const identity = {
     title: 'identity',
     items: [
-      { emoji: '⚧️', text: 'trans woman' },
-      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>' },
+      { emoji: '⚧️', text: 'trans woman <span class="small-text">(she/her)</span>' },
+      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="small-text">(taken)</span>' },
+      // { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="small-text">(<a href="/date">date me?</a>)</span>' },
       { emoji: '🍑', text: 'pleasure domme, sadist' },
-      { emoji: '🧠', text: 'adhd' },
-      { emoji: '🥖', text: 'french' },
+      { emoji: '🧠', text: 'adhd <span class="small-text">(had to be nerfed)</span>' },
+      { emoji: '🥖', text: 'french <span class="small-text">(sorry, I guess?)</span>' },
     ]
   };
 
