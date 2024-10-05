@@ -7,8 +7,8 @@
 	--c-primary--darker: oklch(55% 0.11 170);
 	--c-primary--lighter: oklch(85% 0.21 150);
 	--c-text: oklch(95% 0 0);
-	--c-background: oklch(20% 0 0);
-  --c-background--bold: oklch(0% 0 0);
+	--c-background:oklch(15% 0.016 160);
+  --c-background--bold: oklch(10% 0.016 160);
 
 	/* breakpoints (mobile-first) */
 	--bp-tablet: 768px;
