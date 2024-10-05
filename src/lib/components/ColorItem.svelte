@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: var(--c-background);
+    color: var(--c-background--bold);
     height: 8rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -59,7 +59,7 @@
     &:hover,
     &:focus-visible {
       outline: transparent;
-      background-color: var(--c-background);
+      background-color: var(--c-background--bold);
 
       /* not sure why it wouldn't transition slowly otherwise */
       & p, h3 {
@@ -133,7 +133,7 @@
 
   .copied-marker {
     position: absolute;
-    background-color: var(--c-background--bold);
+    background-color: var(--c-background);
     color: var(--c-text);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;

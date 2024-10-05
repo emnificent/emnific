@@ -7,8 +7,8 @@
 	--c-primary--darker: oklch(55% 0.11 170);
 	--c-primary--lighter: oklch(85% 0.21 150);
 	--c-text: oklch(95% 0 0);
-	--c-background:oklch(15% 0.016 160);
-  --c-background--bold: oklch(10% 0.016 160);
+	--c-background:oklch(22% 0.016 160);
+  --c-background--bold: oklch(17% 0.016 160);
 
 	/* breakpoints (mobile-first) */
 	--bp-tablet: 768px;
@@ -27,7 +27,7 @@
 	--fw--bold: 700;
 	--fw--light: 200;
 
-	background-color: var(--c-background);
+	background-color: var(--c-background--bold);
 	color: var(--c-text);
 	font-family: 'Poppins', 'Noto Color Emoji', sans-serif;
 	line-height: 1.4;
