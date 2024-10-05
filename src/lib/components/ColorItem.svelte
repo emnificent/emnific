@@ -14,7 +14,7 @@
       target = target.parentNode;
     }
 
-    let data = !event.shiftKey ? target.querySelector('.hex') : target.querySelector('.oklch');
+    let data = !event.altKey ? target.querySelector('.hex') : target.querySelector('.oklch');
     data = data.textContent;
     if (data.includes('OKLCH')) data = data.replace(' ', '(').toLowerCase() + ')';
     
