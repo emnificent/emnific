@@ -15,39 +15,72 @@
 
 <article>
   <div>
-    <p>🗓️ today is...</p>
     { #if today }
       { #if today.body }
-        <h2>{today.body.fullDate}</h2>
-        <p>{today.body.shortDate}</p>
+        <div class="today__header">
+          <p>🗓️ today is...</p>
+          <p>{today.body.shortDate}</p>
+        </div>
+        <h2 class="today">
+          <span class="today__day">{today.body.fullDate.split(' ')[0]}<br/></span>
+          {today.body.fullDate.split(' ').filter((e, i) => i > 0).join(' ')}
+        </h2>
 
         <!-- { #if today.body.holiday }
           <p>🎉 {today.body.holiday}</p>
         { /if } -->
       { :else }
+        <p>🗓️ today is...</p>
         <p>there was an error</p>
       { /if }
     { :else }
+      <p>🗓️ today is...</p>
       <p>loading...</p>
     { /if }
-    <p class="source">source: <a href="https://lenorian.com" target="_blank">Lenorian calendar</a></p>
+    <p class="source">⚡️ powered by the <a href="https://lenorian.com" target="_blank">Lenorian calendar</a></p>
   </div>
 </article>
 
 <style lang="scss">
   article {
-    @media screen and (width >= 1280px) {
+    @media screen and (width >= 768px) {
       display: flex;
       justify-content: center;
     }
 
-    & h2 {
+    & .today__header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & .today {
       font-weight: var(--fw--bold);
       font-size: var(--fs-title);
+      
+      @media screen and (width < 768px) {
+        line-height: 1.2;
+        margin-bottom: 0.25rem;
+      
+        & .today__day {
+          font-size: var(--fs-text);
+        }
+      }
+
+      @media screen and (width >= 768px) {
+        & br {
+          display: none;
+        }
+      }
     }
 
     & .source {
-      margin-top: 0.25rem;
+      font-size: var(--fs-text--small);
+      opacity: 0.5;
+
+      &:hover,
+      &:focus-visible {
+        opacity: 1;
+      }
     }
   }
 </style>
