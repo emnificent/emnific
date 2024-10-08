@@ -63,7 +63,7 @@
       gap: 2rem 1.5rem;
     }
 
-    @media screen and (width >= 992px) {
+    @media screen and (width >= 1280px) {
       grid-template: auto / repeat(3, 1fr);
     }
   }

@@ -36,7 +36,7 @@
 
 <style lang="scss">
   article {
-    @media screen and (width >= 992px) {
+    @media screen and (width >= 1280px) {
       display: flex;
       justify-content: center;
     }

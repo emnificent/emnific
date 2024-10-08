@@ -2,9 +2,9 @@
   import ColorItem from '../components/ColorItem.svelte';
 
   const colors = [
-    { name: 'emgreen', hex: '#00BC7B', oklch: '70% 0.16 160' },
-    { name: 'dark emgreen', hex: '#008668', oklch: '55% 0.11 170' },
-    { name: 'light emgreen', hex: '#45F27F', oklch: '85% 0.21 150' }
+    { name: 'emgreen', hex: '#00BC7B', oklch: '0.7 0.16 160' },
+    { name: 'dark emgreen', hex: '#008668', oklch: '0.55 0.11 170' },
+    { name: 'light emgreen', hex: '#45F27F', oklch: '0.85 0.21 150' }
   ]
 </script>
 
@@ -35,7 +35,7 @@
       gap: 1.5rem;
     }
 
-    @media screen and (width >= 992px) {
+    @media screen and (width >= 1280px) {
       grid-template: auto / repeat(3, 1fr);
     }
   }

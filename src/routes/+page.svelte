@@ -21,7 +21,7 @@
     flex-direction: column;
     gap: 2rem;
 
-    @media screen and (width >= 992px) {
+    @media screen and (width >= 1280px) {
       gap: 3rem;
     }
   }

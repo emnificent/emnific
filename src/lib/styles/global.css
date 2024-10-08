@@ -3,16 +3,14 @@
 /* variables */
 :root {
 	/* colors */
-	--c-primary: oklch(70% 0.16 160);
-	--c-primary--darker: oklch(55% 0.11 170);
-	--c-primary--lighter: oklch(85% 0.21 150);
-	--c-text: oklch(95% 0 0);
-	--c-background:oklch(22% 0.016 160);
-  --c-background--bold: oklch(17% 0.016 160);
+	--c-primary: oklch(0.7 0.16 160);
+	--c-primary--darker: oklch(0.55 0.11 170);
+	--c-primary--lighter: oklch(0.85 0.21 150);
+	--c-text: oklch(0.95 0 0);
+	--c-background:oklch(0.17 0.016 160);
 
 	/* breakpoints (mobile-first) */
 	--bp-tablet: 768px;
-	--bp-desktop--small: 992px;
 	--bp-desktop: 1200px;
 	--bp-desktop--large: 1440px;
 
@@ -27,7 +25,7 @@
 	--fw--bold: 700;
 	--fw--light: 200;
 
-	background-color: var(--c-background--bold);
+	background-color: var(--c-background);
 	color: var(--c-text);
 	font-family: 'Poppins', 'Noto Color Emoji', sans-serif;
 	line-height: 1.4;
@@ -35,7 +33,7 @@
 
 body {
   font-size: var(--fs-text);
-  max-width: var(--bp-desktop--small);
+  max-width: 992px;
   margin-inline: auto;
   padding-inline: 1rem;
 
@@ -79,7 +77,7 @@ abbr[data-title]:focus::after {
 	bottom: calc((2rem + 2px) * -1);
 	width: auto;
 	white-space: nowrap;
-	background-color: var(--c-background);
+	background-color: oklch(from var(--c-background) calc(l + 0.05) c h);
 	font-size: 1rem;
 	padding: 0.25rem;
 	border: 2px solid var(--c-primary);
