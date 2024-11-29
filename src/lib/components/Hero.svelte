@@ -6,15 +6,17 @@
 
     for (let i = 0; i < 25; i++) {
       let bubble = document.createElement('span');
-      // [-25; 100]
-      const top = `top:${randomInt(125) - 25}%`;
-      const left = `left:${randomInt(125) - 25}%`;
-      // [5; 30]
-      const width = `width:${randomInt(25) + 5}rem`;
+      // [-10; 90]
+      const top = `top:${randomInt(100) - 10}%`;
+      const left = `left:${randomInt(100) - 10}%`;
+      // [5; 25]
+      const width = `width:${randomInt(20) + 5}vw`;
+      // [10; 20]
+      const speed = `animation-duration:${randomInt(10) + 10}s`;
       const colors = ['emgreen', 'dark-emgreen', 'light-emgreen'];
-      const animation = ['normal', 'reverse']
+      const animation = ['normal', 'reverse'];
 
-      bubble.setAttribute('style', `${top}; ${left}; ${width}`);
+      bubble.setAttribute('style', `${top}; ${left}; ${width}; ${speed}`);
       bubble.classList.add('bubble', 
         `bubble-${colors[Math.floor(Math.random() * colors.length)]}`,
         `bubble-${animation[Math.floor(Math.random() * animation.length)]}`
@@ -145,7 +147,7 @@
     position: absolute;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    filter: blur(1.5rem);
+    filter: blur(1.25vw);
     animation: circular-motion 10s linear infinite;
   }
 
@@ -167,10 +169,10 @@
 
   @keyframes circular-motion {
     from {
-      transform: rotate(0deg) translate(4rem) rotate(0deg);
+      transform: rotate(0deg) translate(3.25vw) rotate(0deg);
     }
     to {
-      transform: rotate(360deg) translate(4rem) rotate(-360deg);
+      transform: rotate(360deg) translate(3.25vw) rotate(-360deg);
     }
   }
 </style>
