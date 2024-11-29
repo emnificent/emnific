@@ -59,8 +59,11 @@ a:focus-visible {
 	border-radius: 0.25rem;
 }
 
-abbr[data-title] {
+p:has(abbr) {
 	position: relative;
+}
+
+abbr[data-title] {
 	text-decoration: underline wavy var(--c-primary);
 }
 
@@ -73,7 +76,7 @@ abbr[data-title]:hover::after,
 abbr[data-title]:focus::after {
 	content: attr(data-title);
 	position: absolute;
-	left: -2rem;
+	left: 0;
 	bottom: calc((2rem + 2px) * -1);
 	width: auto;
 	white-space: nowrap;
@@ -82,6 +85,7 @@ abbr[data-title]:focus::after {
 	padding: 0.25rem;
 	border: 2px solid var(--c-primary);
 	border-radius: 0.5rem;
+	z-index: 99;
 }
 
 abbr[data-title]:focus-visible {

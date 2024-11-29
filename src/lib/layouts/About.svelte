@@ -5,11 +5,10 @@
     title: 'identity',
     items: [
       { emoji: '⚧️', text: 'trans woman <span class="about__comment">she/her</span>' },
-      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="about__comment">taken</span>' },
-      // { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr> <span class="about__comment"><a href="/date">date me</a>?</span>' },
-      { emoji: '🍑', text: 'pleasure domme, sadist' },
+      { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>, <abbr data-title="romantically exclusive, sexually open" tabindex="0" aria-description="romantically exclusive, sexually open">monogamish</abbr> <span class="about__comment"><a href="/date">date</a>?</span>' },
+      { emoji: '🍑', text: '<abbr data-title="pleasure domme" tabindex="0" aria-description="in orther words: pleasure domme">pleasurer</abbr>, <abbr data-title="humiliation/degradation > pain" tabindex="0" aria-description="humiliation and degradation first, pain second">sadist</abbr>, <abbr data-title="pets and toys welcome, brats too" tabindex="0" aria-description="pets and toys welcome, brats too">owner</abbr>' },
       { emoji: '🧠', text: 'adhd <span class="about__comment">had to be nerfed</span>' },
-      { emoji: '🥖', text: 'french <span class="about__comment">sorry, I guess?</span>' },
+      { emoji: '🥖', text: 'french <span class="about__comment">sorry, I guess</span>' },
     ]
   };
 
