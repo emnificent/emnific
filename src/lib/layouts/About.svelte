@@ -4,7 +4,7 @@
   const identity = {
     title: 'identity',
     items: [
-      { emoji: '⚧️', text: 'trans woman <span class="about__comment">she/her</span> <span class="about__comment"><a href="/date">date me</a>?</span>' },
+      { emoji: '⚧️', text: 'trans woman <span class="about__comment">she/her</span> <span class="about__comment"><a href="/agecheck?target=date">date me</a>?</span>' },
       { emoji: '💘', text: '<abbr data-title="attracted to women/-aligned people" tabindex="0" aria-description="attracted to women and woman-aligned non-binary people">sapphic</abbr>, <abbr data-title="romantically exclusive, sexually open" tabindex="0" aria-description="romantically exclusive, sexually open">monogamish</abbr>' },
       { emoji: '🍑', text: '<abbr data-title="pleasure domme: I live to give orgasms" tabindex="0" aria-description="in orther words: pleasure domme; I live to give orgasms">pleasurer</abbr>, <abbr data-title="humiliation/degradation > pain" tabindex="0" aria-description="humiliation and degradation first, pain second">sadist</abbr>, <abbr data-title="pets and toys welcome; brat-inclusive" tabindex="0" aria-description="pets and toys welcome; brat-inclusive">owner</abbr>' },
       { emoji: '🧠', text: 'adhd <span class="about__comment">had to be nerfed</span>' },

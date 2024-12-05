@@ -8,8 +8,10 @@
     <img src={logo} alt="butterfly">
   </a>
 
-  { #if $page.url.pathname === '/date' }
+  { #if $page.url.pathname.replace(/\//g, '') === 'date' }
     <p>a date?</p>
+  { :else if $page.url.pathname.replace(/\//g, '') === 'agecheck' }
+    <p>wait!..</p>
   { :else }
     <p>hey!</p>
   { /if }
