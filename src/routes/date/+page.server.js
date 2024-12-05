@@ -36,11 +36,12 @@ export const actions = {
 
       const miscellaneous = `## Miscellaneous\n- Likes cats? ${data.get('cats')}\n- Scared of bugs? ${data.get('bugs')}\n- Pets: ${data.get('pets')}\n - Music taste: ${data.get('music')}\n- Alcohol? ${data.get('alcohol')}\n- Smoker? ${data.get('smoker')}\n- Recreational drugs? ${data.get('drugs')}\n- Political ideology: ${data.get('politics')}\n- Politically active? ${data.get('activist')}\n- Israel/Palestine: ${data.get('genocide')}`;
 
-      const contact = `## Contact\n- Username: ${data.get('contact')}\n### Message\n${data.get('message')}`;
+      const contact = `## Contact\nUsername: ${data.get('contact')}\n### Message\n${data.get('message')}`;
 
       let content = `# New Date!\n${intent}\n${details}\n${desires}\n${miscellaneous}\n${contact}`;
 
-      if (data.get('message').toUpperCase() === 'DELETE') {
+      const deleteRequest = data.get('message').toUpperCase() === 'DELETE' ? true : false;
+      if ( deleteRequest ) {
         content = `# Delete Request\n${data.get('contact')}`;
       }
 
@@ -71,7 +72,8 @@ export const actions = {
           });
         }
 
-        return {success: true};
+        if (deleteRequest) return { deleteRequest };
+        return { success: true };
 
       } catch (error) {
         return fail(500, {

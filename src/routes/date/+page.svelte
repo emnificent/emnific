@@ -36,6 +36,8 @@
 <main>
   { #if form?.success }
     <p class="form-submitted-message">your lustful submission is in my hands now...<br/>let's see if you have what it takes to catch my attention! 💋</p>
+  { :else if form?.deleteRequest }
+    <p class="form-submitted-message error">your data will be deleted shortly.</p>
   { :else if form?.error }
     <p class="form-submitted-message error">sorry, there was an error, try again later.</p>
   { /if }
@@ -248,7 +250,7 @@
     <div class="gdpr">
       <h2>GDPR Notice</h2>
       <p>As per the GDPR law, you can request your data to be deleted at any time.</p>
-      <p>To immediately delete your data, in the Contact section above:</p>
+      <p>To delete your data, in the Contact section above:</p>
       <ol>
         <li>type your username in the first field,</li>
         <li>type DELETE in the message box,</li>
