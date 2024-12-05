@@ -1,12 +1,18 @@
 <script>
   import logo from '$lib/images/logo.svg';
+  import { page } from '$app/stores';
 </script>
 
 <header>
   <a href="/">
     <img src={logo} alt="butterfly">
   </a>
-  <p>hey!</p>
+
+  { #if $page.url.pathname === '/date' }
+    <p>a date?</p>
+  { :else }
+    <p>hey!</p>
+  { /if }
 </header>
 
 <style lang="scss">
