@@ -193,13 +193,14 @@
         <label for="politics">what's your political ideology?</label>
         <select name="politics" id="politics">
           <option value=""></option>
-          <option value="anarchist">anarchist</option>
+          <option value="anarchist">social anarchist</option>
           <option value="communist">communist</option>
           <option value="socialist">socialist</option>
+          <option value="libertarian">social libertarian</option>
           <option value="green">green</option>
           <option value="liberal">liberal</option>
           <option value="centrist">centrist / moderate</option>
-          <option value="libertarian">libertarian / anarcho-capitalist</option>
+          <option value="ancap">libertarian / anarcho-capitalist</option>
           <option value="conservative">conservative</option>
           <option value="nationalist">nationalist</option>
           <option value="apolitical">apolitical</option>
