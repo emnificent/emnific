@@ -7,6 +7,7 @@
     '⚧️ trans rights are human rights ⚧️',
     '🍑 sex work is real work 🍑',
     '⚕️ abortion is healthcare ⚕️',
+    '💢 no tolerance for the intolerant 💢',
   ]
 
   // Fisher-Yates x Durstenfeld
