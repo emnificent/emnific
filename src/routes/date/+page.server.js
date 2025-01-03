@@ -3,7 +3,17 @@ import { fail } from '@sveltejs/kit';
 export const actions = {
   default: async ({ request }) => {
     const data = await request.formData();
-    if (!data.get('cf-turnstile-response')) return;
+
+    if (!data.get('cf-turnstile-response')) {
+      return fail(401, {
+        error: true,
+        type: 'human',
+        details: {
+          status: 401,
+          message: 'are you human?'
+        }
+      });
+    }
 
     // TURNSTILE CHECK START
     const SECRET_KEY = '0x4AAAAAAA1getBuVocEaWFdd8q4_X2Rv4c';
@@ -65,6 +75,7 @@ export const actions = {
         if (!response.ok) {
           return fail(500, {
             error: true,
+            type: 'discord',
             details: {
               status: response.status,
               message: response.statusText,
@@ -72,20 +83,25 @@ export const actions = {
           });
         }
 
-        if (deleteRequest) return { deleteRequest };
-        return { success: true };
+        if (deleteRequest) return { success: true, type: 'delete' };
+        return { success: true, type: 'submission' };
 
       } catch (error) {
         return fail(500, {
           error: true,
-          details: error,
+          type: 'server',
+          details: error
         });
       }
 
     } else {
-      return fail(500, {
+      return fail(401, {
         error: true,
-        details: 'beep boop bot detected :/'
+        type: 'bot',
+        details: {
+          status: 401,
+          message: 'bot detected'
+        }
       });
     }
   }

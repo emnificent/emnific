@@ -35,11 +35,19 @@
 
 <main>
   { #if form?.success }
-    <p class="form-submitted-message">your lustful submission is in my hands now...<br/>let's see if you have what it takes to catch my attention! 💋</p>
-  { :else if form?.deleteRequest }
-    <p class="form-submitted-message error">your data will be deleted shortly.</p>
+    { #if form.type === 'submission' }
+      <p class="form-submitted-message">your lustful submission is in my hands now...<br/>let's see if you have what it takes to catch my attention! 💋</p>
+    { :else if form.type === 'delete' }
+      <p class="form-submitted-message">your data will be deleted shortly.</p>
+    { /if }
   { :else if form?.error }
-    <p class="form-submitted-message error">sorry, there was an error, try again later.</p>
+    { #if form.type === 'human' }
+      <p class="form-submitted-message error">uh oh, it looks like you forgot to prove you're human.</p>
+    { :else if form.type === 'bot' }
+      <p class="form-submitted-message error">uh oh, I think you're a stinky bot.</p>
+    { :else }
+      <p class="form-submitted-message error">sorry, there was an error, try again later.</p>
+    { /if }
   { /if }
   
   <form method="POST">
